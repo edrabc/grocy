@@ -10,7 +10,7 @@ ISSUE_URL: Final = "https://github.com/custom-components/grocy/issues"
 
 PLATFORMS: Final = ["binary_sensor", "sensor"]
 
-SCAN_INTERVAL = timedelta(seconds=30)
+SCAN_INTERVAL = timedelta(seconds=300)
 
 DEFAULT_PORT: Final = 9192
 CONF_URL: Final = "url"
